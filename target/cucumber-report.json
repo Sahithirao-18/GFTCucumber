@@ -1,0 +1,79 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 29675000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Sales executive logged into the machine",
+            "match": {
+              "location": "stepGlue.StepDef.sales_executive_logged_into_the_machine()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-30T05:02:11.882Z",
+        "line": 21,
+        "name": "Search a product",
+        "description": "",
+        "id": "pixel-store-pos;search-a-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 531000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "larry searches for a product in the search field",
+            "match": {
+              "location": "stepGlue.StepDef.larry_searches_for_a_product_in_the_search_field(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Head"
+                ]
+              },
+              {
+                "cells": [
+                  "Hand"
+                ]
+              },
+              {
+                "cells": [
+                  "Lap"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@datadriven"
+          }
+        ]
+      }
+    ],
+    "name": "Pixel store pos",
+    "description": "",
+    "id": "pixel-store-pos",
+    "keyword": "Feature",
+    "uri": "file:demo28janu.feature",
+    "tags": []
+  }
+]
