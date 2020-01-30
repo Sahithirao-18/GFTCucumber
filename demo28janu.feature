@@ -32,4 +32,4 @@ When larry searches for a product in the search field
   Examples: 
     | user    | password    |
      | Lalitha | password123 |
-     | John    | Ravi123     |
+     | John    | Ravi1234     |
